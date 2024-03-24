@@ -1,7 +1,12 @@
 //Trata a requisição aqui mas a lógica de negócios vai em outro lugar
+import HotelsService
 
 async function getHotels (req, res, next){
-    res.send("Chegou no controller de GET de Hotels :)");
+    try {
+        
+    } catch (err) {
+        
+    }
 }
 
 async function createHotel(req, res, next) {}

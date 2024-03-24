@@ -1,3 +1,4 @@
+import "./env.js";
 import express from "express";
 import cors from "cors";
 import RouterV1 from "./api/v1/router.js"
