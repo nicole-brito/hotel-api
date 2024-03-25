@@ -1,5 +1,9 @@
-    //Aqui é onde vai a lógica de negócios
-async function getHotels (){}
+//Aqui é onde vai a lógica de negócios
+import HotelsRepository from "../repositories/hotels.repository.js";
+
+async function getHotels () {
+    return await HotelsRepository.getHotels();
+}
 
 async function createHotel() {}
 
