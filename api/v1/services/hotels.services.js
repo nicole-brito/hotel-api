@@ -5,13 +5,21 @@ async function getHotels () {
     return await HotelsRepository.getHotels();
 }
 
-async function createHotel() {}
+async function getHotel(id) {
+    return await HotelsRepository.getHotel(id);
+}
 
-async function getHotel() {}
+async function createHotel(hotel) {
+    return await HotelsRepository.createHotel(hotel);
+}
 
-async function deleteHotel() {}
+async function deleteHotel(id) {
+    return await HotelsRepository.deleteHotel(id)
+}
 
-async function updateHotel() {}
+async function updateHotel(hotel) {
+    return await HotelsRepository.updateHotel(hotel)
+}
 
 export default {
     getHotels,

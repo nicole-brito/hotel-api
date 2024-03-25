@@ -1,2 +1,5 @@
 node_modules
 .env
+
+
+//set PATH=%PATH%;C:\Users\nicole.silva\AppData\Roaming\npm; (pro nodemon funcionar)
