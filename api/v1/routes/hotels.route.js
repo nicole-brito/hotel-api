@@ -1,12 +1,17 @@
 import express from "express";
 import HotelsController from "../controllers/hotels.controller.js";
 import hotelsValidator from "../validators/hotels.validator.js";
+import pagination from "../../middlewares/pagination-sorting.js"
 
 
 const router = express.Router();
 
 //O :id serve para passar um hotel especifico
-router.get("/", HotelsController.getHotels);
+router.get(
+    "/", 
+    pagination(), 
+    HotelsController.getHotels
+    );
 
 router.get("/:id", HotelsController.getHotel);
 

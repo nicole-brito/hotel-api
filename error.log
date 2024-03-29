@@ -1,0 +1,10 @@
+{"label":"hotels api","level":"error","message":"undefined - Missing fields or invalid dataError Details: [\n  {\n    \"type\": \"field\",\n    \"msg\": \"name is required\",\n    \"path\": \"phone\",\n    \"location\": \"body\"\n  },\n  {\n    \"type\": \"field\",\n    \"msg\": \"name is required\",\n    \"path\": \"phone\",\n    \"location\": \"body\"\n  }\n] - POST ","timestamp":"2024-03-29T15:30:04.434Z"}
+{"label":"hotels api","level":"error","message":"undefined - req is not defined - GET ","timestamp":"2024-03-29T16:19:27.770Z"}
+{"label":"hotels api","level":"error","message":"undefined - req is not defined - GET ","timestamp":"2024-03-29T16:19:44.482Z"}
+{"label":"hotels api","level":"error","message":"undefined - cache is not defined - GET ","timestamp":"2024-03-29T16:39:21.889Z"}
+{"label":"hotels api","level":"error","message":"undefined - cache is not defined - GET ","timestamp":"2024-03-29T16:43:02.087Z"}
+{"label":"hotels api","level":"error","message":"undefined - cache is not defined - GET ","timestamp":"2024-03-29T16:48:38.909Z"}
+{"label":"hotels api","level":"error","message":"undefined - cache is not defined - GET ","timestamp":"2024-03-29T16:49:06.814Z"}
+{"label":"hotels api","level":"error","message":"undefined - cache is not defined - GET ","timestamp":"2024-03-29T16:55:23.503Z"}
+{"label":"hotels api","level":"error","message":"undefined - cache is not defined - GET ","timestamp":"2024-03-29T16:57:29.281Z"}
+{"label":"hotels api","level":"error","message":"undefined - cache is not defined - GET ","timestamp":"2024-03-29T17:02:50.263Z"}
