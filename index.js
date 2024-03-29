@@ -1,8 +1,8 @@
 import "./env.js";
 import express from "express";
 import cors from "cors";
-import RouterV1 from "./api/v1/router.js"
-import RouterV2 from "./api/v2/router.js"
+import v1Router from "./api/v1/router.js"
+import v2Router from "./api/v2/router.js"
 
 
 const app = express(); //Cria a instância do express
@@ -16,8 +16,8 @@ app.use(function (req, res, next) {
 }); //Isso é um middleware que recebe uma requisição, gera uma resposta e vai pro next
 
 //          URI
-app.use("/api/v1", RouterV1);
-app.use("/api/v2", RouterV2);
+app.use("/api/v1", v1Router);
+app.use("/api/v2", v2Router);
 
 app.listen(3000, () => {
     console.log("API tá rodando na 3000");

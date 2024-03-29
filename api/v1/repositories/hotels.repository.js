@@ -11,7 +11,7 @@ async function getHotels (){
 
 async function getHotel(id) {
     try {
-        return await Hotel.fingByPk(id);
+        return await Hotel.findByPk(id);
     } catch(err) {
         throw err;
     }
@@ -31,7 +31,7 @@ async function deleteHotel(id) {
             where: {
                 hotelId: id,
             },
-        })
+        });
     } catch(err) {
         throw err;
     }
@@ -54,5 +54,5 @@ export default {
     getHotel,
     deleteHotel,
     updateHotel,
-    createHotel
+    createHotel,
 }

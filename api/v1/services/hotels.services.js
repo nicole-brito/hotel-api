@@ -14,11 +14,11 @@ async function createHotel(hotel) {
 }
 
 async function deleteHotel(id) {
-    return await HotelsRepository.deleteHotel(id)
+    return await HotelsRepository.deleteHotel(id);
 }
 
 async function updateHotel(hotel) {
-    return await HotelsRepository.updateHotel(hotel)
+    return await HotelsRepository.updateHotel(hotel);
 }
 
 export default {
@@ -26,5 +26,5 @@ export default {
     getHotel,
     deleteHotel,
     updateHotel,
-    createHotel
+    createHotel,
 }

@@ -49,6 +49,8 @@ async function deleteHotel(req, res, next) {
     try {
         await HotelsServices.deleteHotel(req.params.id);
         res.status(204).end();
+        logger.info(`DELETE /hotels/:id`);
+
     } catch (err) {
         next(err);
     }
