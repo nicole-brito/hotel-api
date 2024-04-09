@@ -2,6 +2,8 @@ import express from "express";
 import HotelsController from "../controllers/hotels.controller.js";
 import hotelsValidator from "../validators/hotels.validator.js";
 import pagination from "../../middlewares/pagination-sorting.js"
+import { CUSTOMER } from "../models/users.model.js";
+import { verifyToken, verifyAuthorization, } from "../../middlewares/auth.middleware.js"
 
 
 const router = express.Router();
@@ -9,6 +11,8 @@ const router = express.Router();
 //O :id serve para passar um hotel especifico
 router.get(
     "/", 
+    verifyToken,
+    verifyAuthorization(CUSTOMER),
     pagination(), 
     HotelsController.getHotels
     );
