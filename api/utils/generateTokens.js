@@ -6,6 +6,7 @@ const generateTokens = async (user) => {
             id: user.userId,
             role: user.role,
             };
+            
         const accessToken = jwt.sign(
             payload,
             process.env.ACCESS_TOKEN_PRIVATE_KEY,

@@ -8,3 +8,11 @@
 {"label":"hotels api","level":"error","message":"undefined - cache is not defined - GET ","timestamp":"2024-03-29T16:55:23.503Z"}
 {"label":"hotels api","level":"error","message":"undefined - cache is not defined - GET ","timestamp":"2024-03-29T16:57:29.281Z"}
 {"label":"hotels api","level":"error","message":"undefined - cache is not defined - GET ","timestamp":"2024-03-29T17:02:50.263Z"}
+{"label":"hotels api","level":"error","message":"undefined - WHERE parameter \"email\" has invalid \"undefined\" value - POST ","timestamp":"2024-04-11T13:21:21.850Z"}
+{"label":"hotels api","level":"error","message":"undefined - WHERE parameter \"email\" has invalid \"undefined\" value - POST ","timestamp":"2024-04-11T13:21:29.555Z"}
+{"label":"hotels api","level":"error","message":"undefined - WHERE parameter \"email\" has invalid \"undefined\" value - POST ","timestamp":"2024-04-11T13:21:30.429Z"}
+{"label":"hotels api","level":"error","message":"undefined - relation \"users\" does not exist - POST ","timestamp":"2024-04-11T13:21:55.677Z"}
+{"label":"hotels api","level":"error","message":"undefined - relation \"users\" does not exist - POST ","timestamp":"2024-04-11T13:27:19.077Z"}
+{"label":"hotels api","level":"error","message":"undefined - relation \"users\" does not exist - POST ","timestamp":"2024-04-11T13:33:14.133Z"}
+{"label":"hotels api","level":"error","message":"undefined - relation \"users\" does not exist - POST ","timestamp":"2024-04-11T13:36:17.641Z"}
+{"label":"hotels api","level":"error","message":"undefined - column \"user_id\" does not exist - POST ","timestamp":"2024-04-11T13:40:58.433Z"}
